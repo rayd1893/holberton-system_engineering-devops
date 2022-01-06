@@ -2,4 +2,4 @@
 # Debugging docker
 
 sudo service apache2 stop
-sudo service apache2 starts
+sudo service apache2 start
