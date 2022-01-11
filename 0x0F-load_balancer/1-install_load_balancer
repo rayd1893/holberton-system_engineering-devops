@@ -16,4 +16,4 @@ backend web-backend
         balance roundrobin
         server 3416-web-01 34.75.201.203:80 check
         server 3416-web-02 34.234.94.212:80 check" >> /etc/haproxy/haproxy.cfg
-sudo systemctl restart haproxy.service
+sudo service haproxy restart
